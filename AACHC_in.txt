@@ -1,0 +1,65 @@
+# ДЛЯ КОПИРОВАНИЯ ach_ name= descr= xp= trigger=
+
+# Путешествие
+    ach_in_space name=Космоса descr=Подняться_в_космос xp=800 trigger=tag=in_space
+    ach_in_hot_mines name=Камень_кирка_палладий descr=Спуститься_в_нижние_пещеры xp=600 trigger=tag=in_hot_deep,!at_respawn_room
+
+    ach_coldy name=Отморозок descr=Обморозиться_до_критического_уровня xp=250 trigger=scores=freezing=1000..
+    ach_warm name=Самая_горячая~ descr=Перегресться_до_критического_уровня xp=250 trigger=scores=freezing=..-1000
+
+    ach_die name=Добро_пожаловать_в_Аркс descr=Умереть xp=100 trigger=scores=count_death=1..
+
+    ach_three_roads name=Три_дороги descr=Впервые_потратить_очко_обучения xp=300 trigger=external
+
+    ach_1k_blocks_walked name=Начало_пути descr=Пройти_1к_блоков xp=100 trigger=scores=count_distance=1000..
+    ach_10k_blocks_walked name=Походник descr=Пройти_10к_блоков xp=500 trigger=scores=count_distance=10000..
+    ach_100k_blocks_walked name=Опытный_путешественник descr=Пройти_100к_блоков xp=1200 trigger=scores=count_distance=100000..
+    ach_1m_blocks_walked name=Кругосветное_путешествие descr=Пройти_1_миллион_блоков xp=7000 trigger=scores=count_distance=1000000..
+    ach_10m_blocks_walked name=А_таксую_я_так,_для_души descr=Пройти_10_миллионов_блоков xp=15000 trigger=scores=count_distance=10000000..
+
+# Предметы
+    ach_has_diamond name=Как_в_старые_добрые descr=Добыть_алмаз xp=100 trigger=item=minecraft:diamond
+    ach_has_fool_potion name=Дурак descr=Получить_зелье_дурака xp=2500 trigger=item=arx:long_bottle_blood_karelo_evergreen_dream_jackal_grass
+    ach_has_crafting_table name=Майнкрафт_по-новому descr=Создать_верстак xp=20 trigger=item=arx:crafting_table
+    # Растения
+        ach_has_evergreen_dream name=Загадочный_бутон descr=Найти_вечнозеленый_сон xp=300 trigger=item=arx:evergreen_dream
+        ach_has_royal_sorrel name=Царская_находка descr=Найти_царский_щавель xp=300 trigger=item=arx:royal_sorrel
+        ach_has_ice_iris name=Блестящая_метель descr=Найти_снежный_ирис xp=300 trigger=item=arx:ice_iris
+        ach_has_ash_lavaflower name=Воплощение_пепла descr=Найти_пепельный_лавоцвет xp=300 trigger=item=arx:ash_lavaflower
+
+    # Слитки
+        ach_has_aluminum_ingot name=Бледный_блеск descr=Получить_алюминиевый_слиток xp=50 trigger=item=arx:aluminum_ingot
+        ach_has_tin_ingot name=Время_обновить_кирку! descr=Получить_оловянный_слиток xp=75 trigger=item=arx:tin_ingot
+        ach_has_iron_ingot name=Жесть... descr=Получить_железный_слиток xp=100 trigger=item=minecraft:iron_ingot
+        ach_has_riolik_ingot name=Из_чего_оно_делается!? descr=Получить_риоликовый_слиток xp=150 trigger=item=arx:riolik_ingot
+
+        ach_has_altaite_ingot name=Ледяной_блеск descr=Получить_альтаитовый_слиток xp=1200 trigger=item=arx:altaite_ingot
+        ach_has_caryite_ingot name=Синее_сиянее descr=Получить_кариитовый_слиток xp=1000 trigger=item=arx:caryite_ingot
+        ach_has_chloronite_ingot name=Зелёная_смерть descr=Получить_хлоронитовый_слиток xp=1200 trigger=item=arx:chloronite_ingot
+        ach_has_dorionite_ingot name=Прочность_солнца descr=Получить_дорионитовый_слиток xp=1200 trigger=item=arx:dorionite_ingot
+        ach_has_draphorite_ingot name=Загадочная_мощь descr=Получить_драфоритовый_слиток xp=5000 trigger=item=arx:draphorite_ingot
+        ach_has_forfactorite_ingot name=Звёздный_слиток descr=Получить_форфакоритовый_слиток xp=1000 trigger=item=arx:forfactorite_ingot
+        ach_has_lamenite_ingot name=Фиолетовое_сокровище descr=Получить_ламенитовый_слиток xp=3000 trigger=item=arx:lamenite_ingot
+        ach_has_naginitis_ingot name=Тёмный_слиток descr=Получить_нагинитовый_слиток xp=800 trigger=item=arx:naginitis_ingot
+        ach_has_malafiotironite_ingot name=Адский_блеск descr=Получить_малафиотиронитовый_слиток xp=1600 trigger=item=arx:malafiotironite_ingot
+        ach_has_toliriite_ingot name=Адский_арбитр descr=Получить_толириитовый_слиток xp=3000 trigger=item=arx:toliriite_ingot
+
+    # Кирки 
+        ach_has_wooden_pickaxe name=Начало_шахтёра descr=Получить_каменную_кирку xp=50 trigger=item=minecraft:wooden_pickaxe
+        ach_has_stone_pickaxe name=Металлический_стук descr=Получить_оловянную_кирку xp=200 trigger=item=minecraft:stone_pickaxe
+        ach_has_iron_pickaxe name=Уровень_профи descr=Получить_дюрастальную_кирку xp=800 trigger=item=minecraft:iron_pickaxe
+        ach_has_diamond_pickaxe name=Синие_искры descr=Получить_кариитовую_кирку xp=2000 trigger=item=minecraft:diamond_pickaxe
+        ach_has_netherite_pickaxe name=Мощь,_достойная_богов descr=Получить_спектральную_кирку xp=7500 trigger=item=minecraft:netherite_pickaxe
+
+
+# Бой
+    ach_kill_sand_elemental name=Воплощение_пустыни descr=Убить_песчанного_элементаля xp=400 trigger=external
+    ach_kill_rat_monster name=Мир_стал_безопаснее descr=Убить_крысомонстра xp=120 trigger=external
+    ach_kill_swamp_monster name=Прощай,_дедуля descr=Убить_болотного_монстра xp=300 trigger=external
+    ach_kill_snow_lady name=Оно_умеет_говорить? descr=Убить_снежную_деву xp=300 trigger=external
+
+    ach_1_kills name=Первая_кровь descr=Убить_одного_моба xp=50 trigger=scores=count_mob_kills=1..
+    ach_10_kills name=Охотник descr=Убить_десять_мобов xp=200 trigger=scores=count_mob_kills=10..
+    ach_100_kills name=Истребитель descr=Убить_сто_мобов xp=800 trigger=scores=count_mob_kills=100..
+    ach_1000_kills name=Ху_Тао descr=Убить_тысячу_мобов xp=3200 trigger=scores=count_mob_kills=1000..
+    ach_10000_kills name=Правая_рука_Смерти descr=Убить_10_тысяч_мобов xp=10000 trigger=scores=count_mob_kills=10000..
