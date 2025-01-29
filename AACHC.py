@@ -142,6 +142,11 @@ def create_world_reg_file():
             file.write(f'scoreboard objectives add {inner_list[0]} dummy {inner_list[0]}\n')
     print('Создан файл регистрации переменных')
 
+def create_wipe_function():
+    with open('output/knockout_system/data_wipe/wipe_achievements.mcfunction', "w", encoding='utf-8') as file:
+        for inner_list in achievements_data: # Цикл для каждого достижения
+            file.write(f'scoreboard players set @s {inner_list[0]} 0\n')
+    print('Создан mcfunction для очистки данных о достижениях')
 
 os.chdir(os.path.dirname(os.path.abspath(__file__))) # Устанавливаем путь выполнения кода
 clear_directory('output') # Очищаем старые данные
@@ -149,6 +154,7 @@ create_directory('output') # Создаем нужное древо директ
 create_directory('output/info')
 create_directory('output/world_reg')
 create_directory('output/core_parts_NAP')
+create_directory('output/knockout_system/data_wipe')
 
 print('=====')
 
@@ -156,6 +162,7 @@ achievements_data = read_achievements_data()
 create_achievements_core_file()
 create_achievements_info_file()
 create_world_reg_file()
+create_wipe_function()
 
 print('=====')
 
