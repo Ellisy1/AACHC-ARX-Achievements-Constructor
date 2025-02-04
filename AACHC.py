@@ -148,7 +148,13 @@ def create_wipe_function():
             file.write(f'scoreboard players set @s {inner_list[0]} 0\n')
     print('Создан mcfunction для очистки данных о достижениях')
 
+
+
+# === # НАЧАЛО ПРОГРАММЫ # === #
+
+
 os.chdir(os.path.dirname(os.path.abspath(__file__))) # Устанавливаем путь выполнения кода
+
 clear_directory('output') # Очищаем старые данные
 create_directory('output') # Создаем нужное древо директорий
 create_directory('output/info')

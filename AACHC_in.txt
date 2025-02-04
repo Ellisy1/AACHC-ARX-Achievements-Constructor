@@ -24,6 +24,7 @@
         ach_has_boiler_crafting_table name=Путь_ведьмы descr=Создать_котёл xp=100 trigger=item=arx:boiler_crafting_table
         ach_has_thermal_cooking_crafting_table name=Отжарка_по_полной descr=Создать_мангал xp=100 trigger=item=arx:thermal_cooking_crafting_table
         ach_has_cooking_crafting_table name=Белиссимо descr=Создать_стол_для_готовки xp=100 trigger=item=arx:cooking_crafting_table
+        ach_has_alchemy_crafting_table name=Нахимичим? descr=Создать_алхимический_стол xp=100 trigger=item=arx:alchemy_crafting_table
         
         ach_has_diamond name=Как_в_старые_добрые descr=Добыть_алмаз xp=100 trigger=item=minecraft:diamond
         ach_has_fool_potion name=Дурак descr=Получить_зелье_дурака xp=2500 trigger=item=arx:long_bottle_blood_karelo_evergreen_dream_jackal_grass
