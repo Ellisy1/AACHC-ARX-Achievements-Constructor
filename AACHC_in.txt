@@ -18,9 +18,16 @@
     ach_10m_blocks_walked name=А_таксую_я_так,_для_души descr=Пройти_10_миллионов_блоков xp=15000 trigger=scores=count_distance=10000000..
 
 # Предметы
-    ach_has_diamond name=Как_в_старые_добрые descr=Добыть_алмаз xp=100 trigger=item=minecraft:diamond
-    ach_has_fool_potion name=Дурак descr=Получить_зелье_дурака xp=2500 trigger=item=arx:long_bottle_blood_karelo_evergreen_dream_jackal_grass
-    ach_has_crafting_table name=Майнкрафт_по-новому descr=Создать_верстак xp=20 trigger=item=arx:crafting_table
+    # Разное
+        ach_has_crafting_table name=Майнкрафт_по-новому descr=Создать_верстак xp=20 trigger=item=arx:crafting_table
+        ach_has_rune_crafting_table name=Путь_мага descr=Создать_рунический_верстак xp=100 trigger=item=arx:rune_crafting_table
+        ach_has_boiler_crafting_table name=Путь_ведьмы descr=Создать_котёл xp=100 trigger=item=arx:boiler_crafting_table
+        ach_has_thermal_cooking_crafting_table name=Отжарка_по_полной descr=Создать_мангал xp=100 trigger=item=arx:thermal_cooking_crafting_table
+        ach_has_cooking_crafting_table name=Белиссимо descr=Создать_стол_для_готовки xp=100 trigger=item=arx:cooking_crafting_table
+        
+        ach_has_diamond name=Как_в_старые_добрые descr=Добыть_алмаз xp=100 trigger=item=minecraft:diamond
+        ach_has_fool_potion name=Дурак descr=Получить_зелье_дурака xp=2500 trigger=item=arx:long_bottle_blood_karelo_evergreen_dream_jackal_grass
+    
     # Растения
         ach_has_evergreen_dream name=Загадочный_бутон descr=Найти_вечнозеленый_сон xp=300 trigger=item=arx:evergreen_dream
         ach_has_royal_sorrel name=Царская_находка descr=Найти_царский_щавель xp=300 trigger=item=arx:royal_sorrel
